@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position:fixed !important;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand-1 {
+    color: green !important;
+    font-size: 30px;
+    margin-left: 50px !important;
+}
+
+
+@media (min-width: 992px)
+{
+    .navbar-collapse{
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+}
+.nav-item{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase !important;
+}
+.nav-link:hover{
+    color:crimson !important;
+}
+.about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.name h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin:20px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.name h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left:50px ;
+}
+.line2{
+    margin: 10px;
+    margin-left: 50px;
+}
+.content{
+    margin-left: 50px;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+.content p{
+    padding: 10px;
+}
+.social{
+    margin-left: 50px;
+    padding: 5px;
+    color: blue;
+}
+.social:hover{
+    color: brown;
+}
+.social i{
+    /* height: 10px; */
+    padding: 20px;
+    size: 20px;
+    /* background-color:blueviolet; */
+    /* border-radius: 50px; */
+}
+.fa-instagram{
+    font-size: 20px;
+}
+.msg{
+    display: flex;
+    font-size: 20px;
+    padding: 16px;
+    /* word-spacing: 20px; */
+}
+.qwe{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    background-color: aqua;
+    color: white;
+    /* height: 30px; */
+    padding: 5px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.qwe:hover{
+    background-color: white;
+    color: cyan;
+    transition: 2s;
+}
+.rty{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    /* height: 30px; */
+    padding: 5px;
+    margin-left: 30px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+}
+.rty:hover{
+    background-color: cyan;
+    color: white;
+    transition: 2s;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:650px){
+    .image{
+        display: none;
+    }
+    .about{
+        display: block;
+        width: 100%;
+    }
+    .navbar{
+        z-index: 0;
+    }
+}
+@media (max-width:991px){
+    .navbar{
+        position: relative !important;
+    }
+}
+.achievements p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card{
+    /* position: relative; */
+    display: flex !important;
+    justify-content: space-between!important;
+    align-items: center;
+    flex-direction: row !important;
+    width: 90% !important;
+    margin: auto !important;
+    margin-bottom: 10px !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+      
+}
+.btn{
+    float: right !important;
+    margin-right: 5vh !important;
+}
+
+.card > p{
+    padding: 0px;
+    margin: 0px;
+}
+.card h5{
+    text-transform: uppercase;
+}
+.card-body h6{
+    margin-left: 5px;
+}
+.card-body ul{
+    list-style: square;
+    /* padding: 0px; */
+    /* margin: 0px; */
+}
+/* .card-body{
+    display: flex !important;
+    flex-direction: column !important;
+} */
+.btn .btn-primary{
+    background-color: none !important;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer1{
+    text-align: center;
+    /* font-size: 16px; */
+    padding: 10px !important;
+    font-family: sans-serif;
+}
+.footer1 > h2{
+    font-size: 16px;
+}
+.footer1 i{
+    padding: 10px;
+}
+.footer1 i:hover{
+    color: blue;
+}
+
+.mr-5{
+    margin-right: 15px;
+}
+.pics h1{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+.png{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 50%;
+    width: 10%;
+    padding: 10px;
+    margin: 20px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
